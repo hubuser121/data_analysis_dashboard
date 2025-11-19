@@ -24,7 +24,7 @@ How to Run
 Clone this repository:
 
 text
-git clone https://github.com/hubuser121/data_analysis_dashboard.git
+git clone https://github.com/hubuser121/data_analysis_dashboard
 Install the required packages:
 
 text
