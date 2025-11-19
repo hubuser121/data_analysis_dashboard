@@ -1,55 +1,73 @@
-Data Analysis Dashboard
-This project demonstrates data analysis and visualization using Python, Pandas, Matplotlib, and Seaborn. The dataset used is the Titanic dataset, which contains information about passengers on the Titanic.
+# Data Analysis Dashboard
 
-Project Overview
-Objective: Analyze the Titanic dataset to understand passenger demographics, survival rates, and relationships between variables.
+This project demonstrates data analysis and visualization using Python, Pandas, Matplotlib, Seaborn, Streamlit, and Plotly Dash. The dataset used is the Titanic dataset, which contains information about passengers on the Titanic.
 
-Tools Used: Python, Pandas, Matplotlib, Seaborn, Jupyter Notebook.
+## Project Overview
 
-Dataset
-Source: Kaggle Titanic Dataset
+- **Objective:** Analyze the Titanic dataset to understand passenger demographics, survival rates, and relationships between variables.
+- **Tools Used:** Python, Pandas, Matplotlib, Seaborn, Streamlit, Plotly Dash.
 
-Description: The dataset includes information about passengers such as age, sex, class, fare, and survival status.
+## Dataset
 
-Key Features
-Data cleaning and preprocessing.
+- **Source:** [Kaggle Titanic Dataset](https://www.kaggle.com/c/titanic/data)
+- **Description:** The dataset includes information about passengers such as age, sex, class, fare, and survival status.
 
-Summary statistics and data exploration.
+## Key Features
 
-Visualizations including count plots, histograms, bar plots, and scatter plots.
+- Data cleaning and preprocessing.
+- Summary statistics and data exploration.
+- Interactive visualizations including histograms, bar plots, scatter plots, correlation matrix, box plots, and violin plots.
+- Insights into survival rates by various factors.
 
-Insights into survival rates by various factors.
+## How to Run
 
-How to Run
-Clone this repository:
+### Streamlit Dashboard
 
-text
-git clone https://github.com/hubuser121/data_analysis_dashboard
-Install the required packages:
-
-text
-pip install pandas matplotlib seaborn jupyter
-Open the Jupyter Notebook:
+1. Clone this repository:
+git clone https://github.com/hubuser121/data_analysis_dashboard.git
 
 text
-jupyter notebook data_analysis.ipynb
-Run the cells to see the analysis and visualizations.
+2. Install the required packages:
+pip install pandas matplotlib seaborn streamlit
 
-Visualizations
-Count Plot: Survival by Sex
+text
+3. Run the Streamlit dashboard:
+streamlit run dashboard.py
 
-Histogram: Age Distribution
+text
+4. Open your browser and go to `http://localhost:8501` to view the interactive dashboard.
 
-Bar Plot: Survival by Class
+### Plotly Dash Dashboard
 
-Scatter Plot: Age vs Fare
+1. Clone this repository:
+git clone https://github.com/hubuser121/data_analysis_dashboard.git
 
-Key Findings
-Survival rates by sex and class.
+text
+2. Install the required packages:
+pip install pandas plotly dash
 
-Age distribution of passengers.
+text
+3. Run the Plotly Dash dashboard:
+python dashboard1.py
 
-Relationships between fare and age.
+text
+4. Open your browser and go to `http://localhost:8050` to view the interactive dashboard.
 
-License
+## Visualizations
+
+- **Histogram:** Age Distribution
+- **Bar Plot:** Survival by Class
+- **Scatter Plot:** Age vs Fare
+- **Correlation Matrix:** Relationships between numerical variables
+- **Box Plot:** Age by Class
+- **Violin Plot:** Age by Sex
+
+## Key Findings
+
+- Survival rates by sex and class.
+- Age distribution of passengers.
+- Relationships between fare and age.
+
+## License
+
 This project is licensed under the MIT License.
